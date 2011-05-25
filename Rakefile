@@ -14,6 +14,7 @@ $hoe = Hoe.spec 'ruby-osc' do
   self.developer 'Macario Ortega', 'macarui@gmail.com'
   self.rubyforge_name = self.name # TODO this is default value
   self.extra_deps     = [['eventmachine','>= 0.12.8']]
+  self.readme_file = 'README.rdoc'
 
 end
 
